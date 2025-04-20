@@ -128,12 +128,9 @@ ul {
 .velikosti {
     display: flex;
     flex-basis: auto;
-    margin: 0 30px;
+    justify-content: space-between;
+    margin: 10px 30px;
     padding: 0;
-}
-
-li {
-    flex-grow: 1;
 }
 
 .odkaz {
@@ -143,7 +140,7 @@ li {
 .tlacitko {
     position: absolute;
     left: 30px;
-    bottom: -120px;
+    bottom: -100px;
     display: inline-block;
     padding: 10px 30px;
     font-family: "Rubik", sans-serif;
@@ -157,10 +154,11 @@ li {
 }
 
 .vybrana {
+    display: block;
     color: #f15f42;
     font-weight: bold;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border: 1px, solid, #f15f42;
     border-radius: 50%;
 }

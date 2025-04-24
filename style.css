@@ -121,16 +121,22 @@ body {
     border-top: 1px solid #06d7c1;
 }
 
-ul {
-    list-style: none;
-}
-
 .velikosti {
     display: flex;
-    flex-basis: auto;
-    justify-content: space-between;
-    margin: 10px 30px;
+    gap: 20px;
     padding: 0;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+.vybrana {
+    font-weight: bold;
+    color: #f15f42;
+    border: 2px, solid, #f15f42;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    text-align: center;
 }
 
 .odkaz {
@@ -151,14 +157,4 @@ ul {
     text-decoration: none;
     background-color: #f15f42;
     border-radius: 5px;
-}
-
-.vybrana {
-    display: block;
-    color: #f15f42;
-    font-weight: bold;
-    width: 30px;
-    height: 30px;
-    border: 1px, solid, #f15f42;
-    border-radius: 50%;
 }
